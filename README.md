@@ -1,7 +1,8 @@
 # docker-firebird
-Container para o Firebird 2.1.7
+Container para o Firebird 2.5 sc
 
-Como o Firebird não disponibiliza uma imagem oficial para estar utilizando no Docker tive que acabar criando a minha para utilizar a versão 2.1.7.
+Imagem para utilizção em container com Firebird 2.5 Super Classic
 
-[Docker Hub](https://hub.docker.com/r/mahenrique94/firebird/)
-#docker-firebird-2.5-sc
+
+
+[Docker Hub](https://hub.docker.com/r/williandoamor/firebird2.5-sc)
