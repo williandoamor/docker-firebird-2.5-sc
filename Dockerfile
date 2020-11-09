@@ -5,7 +5,8 @@ MAINTAINER Willian do Amor <willsazon@gmail.com>
 #ENV FIREBIRD_PATH=/opt/firebird
 #ENV FIREBIRD_DB_PASSWORD=masterkey
 #ENV FIREBIRD_DB_PASSWORD_DEFAULT=masterkey
-ENV VOLUME=/firebird
+ENV VOLUME=/BACKUPFB
+ENV VOLULE=/BANCOS
 
 #Atualiza o sistema
 RUN apt-get update
@@ -31,7 +32,8 @@ RUN mkdir -p /BANCOS && \
     
 #RUN ln -sf /dev/stdout /var/log/firebird/firebird2.5.log
 
-VOLUME ["/firebird"]
+VOLUME ["/BACKUPFB"]
+VOLUME ["/BANCOS"]
 #Libera a posrta pra conexao
 EXPOSE 3050/tcp
 
